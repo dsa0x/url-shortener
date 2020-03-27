@@ -32,7 +32,6 @@ router.post("/", async (req, res, next) => {
 });
 
 // Get Url
-
 router.get("/:link", async (req, res) => {
   const shortUrl = req.params.link;
   try {
